@@ -6,11 +6,11 @@ body {
   background: #de2f32; }
 
 .window {
-  width: 340px;
-  height: 340px;
+  width: 325px;
+  height: 325px;
   background: #a0d5d3;
   position: absolute;
-  top: 40%;
+  top: 35%;
   left: 50%;
   border-radius: 50%;
   margin-top: -60px;
@@ -261,7 +261,7 @@ body {
   left: 50%;
   top: 50%;
   text-shadow:2px 5px 0 rgba(8, 0, 0, 0.671);
-  margin-top: 25px;
+  margin-top: 20px;
   -webkit-transform: translateX(-50%);
   -moz-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
