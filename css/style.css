@@ -778,6 +778,7 @@ body {
 #logo img{
   width: 120px;
   position: absolute;
-  left: 53%;
-  top: 3%;
+  left: 63%;
+  top: 6%;
+  z-index: initial;
 }
