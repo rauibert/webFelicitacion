@@ -4,11 +4,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Feliz Navidad María</title>
+  <script src="audio.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/fontAwesome/css/all.css">
 </head>
 <body>
-  
+  <div id="logo"><img src="img/salle.png" alt=""></div>
   <div class="window">
     <div class="santa">
       <div class="head">
@@ -30,13 +32,13 @@
     </div>
   </div>
   <div class="message">
-    <h1>Feliz Navidad!</h1>
-    <audio src="audio/campana.mp3" preload="auto"></audio>
+    <h1>Feliz Navidad<br><center><b>María</b></center></h1>
+    <audio id="player" src="audio/felizNavidad.mp3"></audio>
+    <center>
+      <i id="botonPlay" onclick="playRecord()" class="far fa-play-circle fa-5x"></i>
+      <i id="botonPause" onclick="pauseRecord()" class="far fa-pause-circle fa-5x"></i>
+    </center>
   </div>
-
-
-
-
-
+  
 </body>
 </html>
